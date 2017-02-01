@@ -1,6 +1,6 @@
-import classNames from 'classnames'
+const classNames = require('classnames')
 
-import './style.scss'
+require('./style.scss')
 
 export default {
   name: 'tooltip',
